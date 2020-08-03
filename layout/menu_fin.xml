@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBackground">
+
+    /* Titre du jeu */
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textSize="100dp"
+        android:textColor="#010101"/>
+
+    /* Oiseau */
+    <ImageView
+        android:id="@+id/imageMenu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/floppy_bird"/>
+
+    /* Bouton retry */
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Retry"
+        android:text="Retry"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_below="@id/imageMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:textSize="50dp"/>
+
+    /* Bouton menu */
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Menu"
+        android:text="Menu"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_below="@id/imageMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textSize="50dp"/>
+
+</RelativeLayout>
